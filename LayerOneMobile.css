@@ -1,7 +1,8 @@
-@media screen and (max-width: 420px){
+@media screen and (max-width: 600px){
   .Container {
     display: flex;
     flex-direction: column;
+    height: 300vh;
   }
 
   .Container_bodyContend {
@@ -13,7 +14,7 @@
   }
 
   .Content_topBars {
-    height: 15%;
+    height: 5%;
     padding: 0;
   }
 
@@ -21,17 +22,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 10%;
+    height: 8%;
+  }
+
+  .Header {
+    height: 50%
   }
 
   .UserProfile {
-    height: 100%;
+    height: 50%;
   }
 
   .LeftMneu {
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 20%;
   }
 
   .Search{
@@ -39,26 +44,80 @@
   }
 
   .notification {
-    height: 60%;
+    height: 30%;
   }
 
-  .notification2 {
-    display: block;
+  .Task {
     height: 30%;
+  }
+
+  .OtherLinks {
+    height: 20%;
   }
 
   .GeneralInfo {
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 40%;
   }
 
   .Banner {
-    height: 100%;
+    height: 25%;
     width: 100%;
   }
 
-  .hide {
-    display: none;
+  .Links {
+    height: 10%;
+  }
+
+  .FeaturedNews {
+    height: 10%;
+  }
+
+  .HandBook {
+    height: 10%;
+  }
+
+  .ItServices {
+    height: 10%;
+  }
+
+  .HrVacancies {
+    height: 10%;
+  }
+
+  .Ecolink {
+    height: 10%;
+  }
+
+  .Documents {
+    height: 10%;
+  }
+
+  .Management {
+    height: 10%;
+  }
+
+  .FeaturedVideo {
+    height: 10%;
+  }
+
+  .PolicyDoc {
+    height: 10%;
+  }
+
+  .UserInfo {
+    height: 20%;
+  }
+
+  .TabLinks {
+    height: 5%;
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 9%;
   }
 }
